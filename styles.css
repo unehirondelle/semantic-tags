@@ -8,31 +8,31 @@ body {
     margin: 0;
 }
 
-.navbar, .footer {
+nav, footer {
     background-color: firebrick;
     padding: 20px;
 }
 
-.navbar > a {
+nav > a {
     color: ghostwhite;
     font-size: 40px;
     font-weight: bold;
     text-decoration: none;
 }
 
-.header {
+header {
     color: firebrick;
     padding-left: 20px;
 }
 
-.main {
+main {
     float: left;
     font-size: 20px;
     width: 75%;
     padding: 20px;
 }
 
-.aside {
+aside {
     float: left;
     width: 25%;
     background-color: cadetblue;
@@ -42,7 +42,7 @@ body {
     text-align: center;
 }
 
-.footer {
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
