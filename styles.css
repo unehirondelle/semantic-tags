@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar, .footer {
+    background-color: firebrick;
+    padding: 20px;
+}
+
+.navbar > a {
+    color: ghostwhite;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header {
+    color: firebrick;
+    padding-left: 20px;
+}
+
+.main {
+    float: left;
+    font-size: 20px;
+    width: 75%;
+    padding: 20px;
+}
+
+.aside {
+    float: left;
+    width: 25%;
+    background-color: cadetblue;
+    padding: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
